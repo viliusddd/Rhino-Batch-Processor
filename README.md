@@ -1,4 +1,4 @@
-# Rhino-Batch-Processor
+# RhinoBatchProcess
 Loop-walks trough directories, opening rhino files, removing instances, saving and exporting it to FBX.
 
 Use with Rhino 6 (Win)
