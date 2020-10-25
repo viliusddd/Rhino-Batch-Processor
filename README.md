@@ -1,15 +1,17 @@
 # Rhino-Batch-Processor
-Loops Walks trough directories opening rhino file, removing instances, saving and exporting to FBX.
+Loop-walks trough directories, opening rhino files, removing instances, saving and exporting it to FBX.
 
-Used on Rhino 6 (Win)
+For Rhino 6 (Win)
+
 # Usage
-- Open new Rhino scene (cm);
-- Rhino Python Editor;
-- Ctrl + O -> Choose Script;
-- Script must be in with the rhino files,
-  or you can edit cwd variable to point to rhino files directory;
-- Start Debugging [F5];
-- Thats it!
+- open new Rhino scene (cm)
+- Rhino Python Editor
+- ctrl + O,  then choose Script
+- script must be at the same location as Rhino files, or you can edit CWD variable to point to Rhino files directory
+- to start Debugging press [F5]
+
 # Output
-	/file_name/file_name.3dm -> 3dm su exploded instances
-	/file_name/file_name.fbx
+```
+/file_name/file_name.3dm  # 3dm with exploded instances
+/file_name/file_name.fbx
+```
